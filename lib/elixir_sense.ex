@@ -108,7 +108,7 @@ defmodule ElixirSense do
   end
 
   def test(file) do
-    Parser.parse_file(file, false, false, 1)
+    Parser.parse_file(file, false, false, nil)
   end
 
   @doc ~S"""
