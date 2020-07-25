@@ -107,6 +107,10 @@ defmodule ElixirSense do
     end
   end
 
+  def test(file) do
+    Parser.parse_file(file, false, false, 1)
+  end
+
   @doc ~S"""
   Returns a sorted list of all available modules
 
